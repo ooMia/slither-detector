@@ -45,9 +45,14 @@
     ```sh
     ❯ slither src/HelloWorld.sol --detect hello-world
     ...
-    
+
     INFO:Detectors:
     returns 'Hello, World!' HelloWorld.hello() (src/HelloWorld.sol#5-7)
     Reference: none
     INFO:Slither:src/HelloWorld.sol analyzed (1 contracts with 1 detectors), 1 result(s) found
     ```
+
+---
+
+17. Install Dependency: `forge install https://github.com/Uniswap/v4-periphery`
+18. Write Contract code: [src/Herbicide.sol](./src/Herbicide.sol)
