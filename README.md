@@ -11,3 +11,7 @@
    ```
 5. Write Contract code: [src/Bug.sol](./src/Bug.sol)
 6. Run Slither: `slither src/Bug.sol`
+
+---
+
+7. Write Contract code: [src/HelloWorld.sol](./src/HelloWorld.sol)
