@@ -9,3 +9,5 @@
    solc-select use 0.8.26
    solc --version
    ```
+5. Write Contract code: [src/Bug.sol](./src/Bug.sol)
+6. Run Slither: `slither src/Bug.sol`
