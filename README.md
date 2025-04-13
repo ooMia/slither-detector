@@ -15,4 +15,7 @@
 ---
 
 7. Write Contract code: [src/HelloWorld.sol](./src/HelloWorld.sol)
-8. Write Detector in a package [\_\_detectors\_\_/HelloWorldDetector.py](./__detectors__/HelloWorldDetector.py)
+8. Write Detector in a package: [\_\_detectors\_\_/HelloWorldDetector.py](./__detectors__/HelloWorldDetector.py)
+9. Write `setup.sh` to update configuration: [setup.sh](./setup.sh)
+10. Allow execution: `chmod +x setup.sh`
+11. Execute: `./setup.sh`
