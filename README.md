@@ -38,3 +38,16 @@
     ⚠️ 변경사항이 적용됩니다.
     ✅ 설정이 완료되었습니다.
     ```
+
+15. Run Slither: `slither src/HelloWorld.sol --detect hello-world`
+16. Check the result
+
+    ```sh
+    ❯ slither src/HelloWorld.sol --detect hello-world
+    ...
+    
+    INFO:Detectors:
+    returns 'Hello, World!' HelloWorld.hello() (src/HelloWorld.sol#5-7)
+    Reference: none
+    INFO:Slither:src/HelloWorld.sol analyzed (1 contracts with 1 detectors), 1 result(s) found
+    ```
