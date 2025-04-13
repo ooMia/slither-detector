@@ -17,7 +17,7 @@
 ---
 
 7.  Write Contract code: [src/HelloWorld.sol](./src/HelloWorld.sol)
-8.  Write Detector in a package: [\_\_detectors\_\_/HelloWorldDetector.py](./__detectors__/hello_world.py)
+8.  Write Detector in a package: [\_\_detectors\_\_/hello_world.py](./__detectors__/hello_world.py)
 9.  Write `setup.sh` to update configuration: [setup.sh](./setup.sh)
 10. Allow execution: `chmod +x setup.sh`
 11. Execute for copy: `./setup.sh`
@@ -56,3 +56,17 @@
 
 17. Install Dependency: `forge install https://github.com/Uniswap/v4-periphery`
 18. Write Contract code: [src/Herbicide.sol](./src/Herbicide.sol)
+19. Write Detector in a package: [\_\_detectors\_\_/herbicide.py](./__detectors__/herbicide.py)
+20. Add modules in importer: [\_\_detectors\_\_/all_detectors.py](./__detectors__/all_detectors.py)
+21. Run Slither: `slither src/Herbicide.sol --detect herbicide`
+22. Check the result
+
+    ```sh
+    ❯ slither src/Herbicide.sol --detect herbicide
+    ...
+    
+    INFO:Detectors:
+    Permission not implemented: _beforeSwap in contract HerbicideDetector (src/Herbicide.sol#6-31)
+    Reference: none
+    INFO:Slither:src/Herbicide.sol analyzed (20 contracts with 1 detectors), 1 result(s) found
+    ```
