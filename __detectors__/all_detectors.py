@@ -107,4 +107,4 @@ from .functions.optimism_deprecation import OptimismDeprecation
 
 # from .statements.unused_import import UnusedImport
 
-from .__detectors__.HelloWorld import HelloWorldDetector
+from .__detectors__.hello_world import HelloWorldDetector
