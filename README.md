@@ -15,3 +15,4 @@
 ---
 
 7. Write Contract code: [src/HelloWorld.sol](./src/HelloWorld.sol)
+8. Write Detector in a package [\_\_detectors\_\_/HelloWorldDetector.py](./__detectors__/HelloWorldDetector.py)
