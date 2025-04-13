@@ -1,3 +1,16 @@
+# Slither Detector Practice
+
+## Set-up
+1. `git clone https://github.com/ooMia/slither-detector.git`
+2. `cd slither-detector`
+3. Step 2 to 4: install Python dependencies 
+4. `forge install`
+5. `slither src/Bug.sol`
+6. `./setup.sh`
+6. `slither src/HelloWorld.sol --detect hello-world`
+7. `slither src/Herbicide.sol --detect herbicide`
+
+## Progress
 1. `Forge init --force`
 2. Set Python virtual environment: `python3 -m venv .venv`
 3. Activate the virtual environment: `source .venv/bin/activate`
